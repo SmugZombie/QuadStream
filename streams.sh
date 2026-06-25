@@ -235,7 +235,7 @@ validate_streams() {
   if [ "$missing" -eq 1 ]; then
     echo
     echo "Create $CONFIG_FILE with your camera URLs."
-    echo "  cp streams.conf.example streams.conf"
+    echo "  cp sample.streams.conf streams.conf"
     echo "  \$EDITOR streams.conf"
     exit 1
   fi
